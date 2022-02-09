@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./index.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 // components
-import Login from "./components/index/IndexContainer";
+import IndexContainer from "./components/index/IndexContainer";
 
 class App extends Component {
   render() {
@@ -16,7 +16,6 @@ class App extends Component {
        <div>
         <Routes>
           <Route exact path="/" element={<IndexContainer />} />
-          
         </Routes>
        </div>
      </Router>
