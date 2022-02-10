@@ -4,7 +4,7 @@ import React from 'react';
 const IndexContainer = () => {
     return (
         <div>
-            <body className="bg-dark text-white">
+            <body className="">
                 <div className="container">
                     <h1>Design System</h1>
                     
