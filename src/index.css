@@ -1,3 +1,17 @@
+/* ----------------  */
+/* Custom Properties */
+/* ----------------  */
+
+:root {
+
+  --clr-dark: 230 35% 7%; 
+  --clr-light: 231 77% 90%;
+  --clor-white: 0 0% 100%;
+
+}
+
+
+
 
 /* ----------------  */
 /* Reset             */
@@ -124,3 +138,12 @@ select {
   border: 0;
 }
 
+.box {
+  background: lightblue;
+  padding: 3rem;
+}
+
+
+/* Colors */
+
+.bg-dark { background-color: hsl( var(--clr-dark) );}

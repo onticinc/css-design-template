@@ -3,11 +3,10 @@ import React from 'react';
 const IndexContainer = () => {
     return (
         <div>
-            <div class="container">
-                <div class="box">A</div>
-                <div class="box">B</div>
-                <div class="box">C</div>
-                <div class="box">D</div>
+            <div class="call-to-action container grid">
+                <h1>Design System</h1>
+
+                <section></section>
             </div> 
         </div>
     )
