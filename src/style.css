@@ -2,11 +2,27 @@
 /* Custom Properties */
 /* ----------------  */
 
+
+
+
 :root {
+  /* Colors */
 
   --clr-dark: 230 35% 7%; 
   --clr-light: 231 77% 90%;
   --clor-white: 0 0% 100%;
+
+  /* font-sizes */
+
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+  
 
 }
 
@@ -144,6 +160,12 @@ select {
 }
 
 
-/* Colors */
+/* Color Classes */
 
 .bg-dark { background-color: hsl( var(--clr-dark) );}
+.bg-accent { background-color: hsl( var(--clr-light) );}
+.bg-white { background-color: hsl( var(--cl-white) );}
+
+.text-dark { background-color: hsl( var(--clr-dark) );}
+.text-accent { background-color: hsl( var(--clr-light) );}
+.text-white { background-color: hsl( var(--clr-white) );}
